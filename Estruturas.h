@@ -44,4 +44,9 @@ void buscar_por_periodo(Caso *lista, const char *data_ini, const char *data_fim)
 void imprimir_casos(Caso *lista);
 void imprimir_arvore_em_ordem(NoMunicipio *raiz);
 
+/* ---------- Leitura do CSV ---------- */
+/* Lê o arquivo CSV e insere cada linha na árvore (via *raiz). Retorna
+ * quantos registros válidos foram carregados. */
+int carregar_csv(const char *caminho, NoMunicipio **raiz);
+
 #endif
