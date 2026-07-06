@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Estruturas.h"
+#include "estruturas.h"
 
 /* ======================= FUNÇÕES AUXILIARES ======================= */
 
