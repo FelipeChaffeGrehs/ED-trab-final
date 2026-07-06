@@ -50,7 +50,7 @@ static void limpar_buffer_entrada(void) {
 static void menu_consultar_municipio(NoMunicipio *raiz) {
     int codigo;
 
-    printf("\nDigite o codigo IBGE do municipio (ex: 432067 = Porto Alegre): ");
+    printf("\nDigite o codigo IBGE do municipio (ex: 431490 = Porto Alegre): ");
     if (scanf("%d", &codigo) != 1) {
         printf("Entrada invalida.\n");
         limpar_buffer_entrada();
